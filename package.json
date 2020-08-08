@@ -1,0 +1,26 @@
+{
+  "name": "mapanno",
+  "version": "0.0.1",
+  "description": "Annotate map for history learning purpose",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --experimental-scope-hoisting --public-url . index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoduc/MapAnno.git"
+  },
+  "author": "Ho Duc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoduc/MapAnno/issues"
+  },
+  "homepage": "https://github.com/hoduc/MapAnno#readme",
+  "dependencies": {
+    "ol": "^6.4.3"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
+}
